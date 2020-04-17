@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/modal-lightbox/static/css/main.d175ea8f.chunk.css",
+    "main.js": "/modal-lightbox/static/js/main.bbc12aa1.chunk.js",
+    "main.js.map": "/modal-lightbox/static/js/main.bbc12aa1.chunk.js.map",
+    "runtime-main.js": "/modal-lightbox/static/js/runtime-main.c146cb6b.js",
+    "runtime-main.js.map": "/modal-lightbox/static/js/runtime-main.c146cb6b.js.map",
+    "static/js/2.8e70e59e.chunk.js": "/modal-lightbox/static/js/2.8e70e59e.chunk.js",
+    "static/js/2.8e70e59e.chunk.js.map": "/modal-lightbox/static/js/2.8e70e59e.chunk.js.map",
+    "index.html": "/modal-lightbox/index.html",
+    "precache-manifest.3a9b973aeff343d13783d0f09911992f.js": "/modal-lightbox/precache-manifest.3a9b973aeff343d13783d0f09911992f.js",
+    "service-worker.js": "/modal-lightbox/service-worker.js",
+    "static/css/main.d175ea8f.chunk.css.map": "/modal-lightbox/static/css/main.d175ea8f.chunk.css.map",
+    "static/js/2.8e70e59e.chunk.js.LICENSE.txt": "/modal-lightbox/static/js/2.8e70e59e.chunk.js.LICENSE.txt",
+    "static/media/img1.jpg": "/modal-lightbox/static/media/img1.e5aca032.jpg",
+    "static/media/img2.jpg": "/modal-lightbox/static/media/img2.eea3e601.jpg",
+    "static/media/img3.jpg": "/modal-lightbox/static/media/img3.83902969.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c146cb6b.js",
+    "static/js/2.8e70e59e.chunk.js",
+    "static/css/main.d175ea8f.chunk.css",
+    "static/js/main.bbc12aa1.chunk.js"
+  ]
+}
