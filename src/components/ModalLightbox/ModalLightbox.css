@@ -1,0 +1,83 @@
+.lp-lightbox,
+.lp-lightbox * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.lp-lightbox {
+  width: 100%;
+}
+
+.lp-lightbox>.container {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.lp-lightbox>.container>.image-wrapper {
+  flex: 1;
+  padding: 0.35rem;
+}
+
+.lp-lightbox>.container>.image-wrapper>.image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+  -webkit-transition: opacity 0.6s ease;
+  -moz-transition: opacity 0.6s ease;
+  -o-transition: opacity 0.6s ease;
+}
+
+.lp-lightbox>.container>.image-wrapper>.image:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.lp-lightbox>.modal {
+  visibility: hidden;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.lp-lightbox>.modal>.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+}
+
+.lp-lightbox>.modal>.close:hover,
+.lp-lightbox>.modal>.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.lp-lightbox>.modal>.modal-content {
+  margin: auto;
+  width: 80%;
+  max-width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .lp-lightbox>.modal>.modal-content {
+    width: 100%;
+  }
+}

@@ -1,24 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+
+import ModalLightbox from './components/ModalLightbox/ModalLightbox'
+
+import img1 from './image/img1.jpg';
+import img2 from './image/img2.jpg';
+import img3 from './image/img3.jpg';
+
+const collection = [
+  { src: img1, caption: "Caption eight" },
+  { src: img2, caption: "Caption nine" },
+  { src: img3, caption: "Caption ten" },
+];
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ModalLightbox
+          input={collection}
+          ratio={`3:2`}
+        />
     </div>
   );
 }
